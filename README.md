@@ -4,7 +4,7 @@ A Node.js migration tool designed to add `eventLocationRule` fields to TMX rate 
 
 ## Description
 
-This tool performs data migration on TMX rate engine JSON exports by:
+This tool performs data migration on JSON exports by:
 - Adding `eventLocationRule` objects with event "DELIVERLOAD" to charge templates
 - Mapping charge templates to rate records by name
 - Updating rate records with corresponding event location rules
