@@ -1,6 +1,6 @@
 # Event Location Rule Adder
 
-A Node.js migration tool designed to add `eventLocationRule` fields to TMX rate engine charge templates and rate records for MongoDB database updates.
+A Node.js migration tool designed to add `eventLocationRule` fields to charge templates and rate records for MongoDB database updates.
 
 ## Description
 
