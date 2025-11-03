@@ -75,4 +75,3 @@ The script will:
   - `*_reference_numbers.json` - Detailed results with paths
   - `*_reference_values.txt` - Plain list of reference values
 
-## Project Structure
