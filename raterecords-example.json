@@ -1,0 +1,212 @@
+{
+  "_id": {
+    "$oid": "6811e3f75b1531c78083ecee"
+  },
+  "name": "Atlanta-7775.91",
+  "owner": "5fb3e0fc2a51862c03449322-driver",
+  "description": "-",
+  "customers": [
+    {
+      "name": "All Customers",
+      "profileType": "customer/group",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "6509789287550d5c4aba54aa"
+      }
+    }
+  ],
+  "loadType": [
+    "IMPORT",
+    "EXPORT",
+    "ROAD"
+  ],
+  "pickupLocation": [
+    {
+      "name": "All Customers",
+      "profileType": "customer/group",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "6509789287550d5c4aba54aa"
+      }
+    }
+  ],
+  "deliveryLocation": [
+    {
+      "name": "59925",
+      "profileType": "zipCode",
+      "profile": {
+        "name": "59925",
+        "zipCode": "59925",
+        "_id": {
+          "$oid": "6811e3f75b1531c78083ecf2"
+        }
+      },
+      "profileGroup": [],
+      "_id": {
+        "$oid": "6811e3f75b1531c78083ecf1"
+      }
+    }
+  ],
+  "returnLocation": null,
+  "terminals": [
+    {
+      "name": "Atlanta",
+      "profileType": "terminal",
+      "profile": {
+        "name": "Atlanta",
+        "_id": {
+          "$oid": "5fb54c3c1626cb41fec8d5bd"
+        }
+      },
+      "profileGroup": [],
+      "_id": {
+        "$oid": "5fb54c3c1626cb41fec8d5bd"
+      }
+    }
+  ],
+  "chargeGroups": [
+    {
+      "billTo": {
+        "name": "Match Customer",
+        "profileType": "matchCustomer",
+        "profile": {
+          "name": "Match Customer",
+          "_id": {
+            "$oid": "6811e3f75b1531c78083ecf7"
+          }
+        },
+        "profileGroup": [],
+        "_id": {
+          "$oid": "6811e3f75b1531c78083ecf6"
+        }
+      },
+      "oneOffCharges": [],
+      "chargeProfiles": [
+        {
+          "name": "Atlanta-7775.91",
+          "description": "Line Haul",
+          "unitOfMeasure": "fixed",
+          "owner": "5fb3e0fc2a51862c03449322-driver",
+          "systemGenerated": false,
+          "rules": [
+            {
+              "type": "GROUP",
+              "value": "AND",
+              "isNegated": false,
+              "children": []
+            }
+          ],
+          "charges": [
+            {
+              "freeUnits": 0,
+              "minimumAmount": 0,
+              "amount": 7775.91,
+              "_id": {
+                "$oid": "6811e3f65b1531c78083ecd2"
+              }
+            }
+          ],
+          "isActive": true,
+          "autoAdd": true,
+          "fromEvent": null,
+          "toEvent": null,
+          "inEvent": null,
+          "exactEvents": null,
+          "chargeTemplateGroupID": [],
+          "isDeleted": false,
+          "version": 1,
+          "chargeName": "Line Haul",
+          "chargeCode": "Base Price",
+          "percentageOf": [],
+          "vendor": {
+            "name": "All Driver Group",
+            "profileType": "driverGroups/all",
+            "profile": null,
+            "profileGroup": [],
+            "_id": {
+              "$oid": "6811db7c60b4869eb9e26742"
+            }
+          },
+          "vendorId": null,
+          "vendorProfileType": "driverGroups/all",
+          "fromLegs": [],
+          "fromProfileType": null,
+          "from": null,
+          "toLegs": [],
+          "toProfileType": null,
+          "to": null,
+          "moveType": null,
+          "_id": {
+            "$oid": "6811e3f65b1531c78083ecd1"
+          },
+          "createdAt": {
+            "$date": "2025-04-30T08:48:54.636Z"
+          },
+          "updatedAt": {
+            "$date": "2025-04-30T08:48:54.636Z"
+          },
+          "eventLocationRule": {
+            "event": "DELIVERLOAD",
+            "_id": {
+              "$oid": "6813550f0eccce56651f8917"
+            }
+          }
+        }
+      ],
+      "chargeProfileGroups": [
+        {
+          "$oid": "67182274629e2aba69095cb0"
+        }
+      ],
+      "_id": {
+        "$oid": "6811e3f75b1531c78083ecf5"
+      }
+    }
+  ],
+  "isActive": true,
+  "effectiveStartDate": {
+    "$date": "2025-03-01T05:00:00.000Z"
+  },
+  "effectiveEndDate": {
+    "$date": "2032-03-02T04:59:59.999Z"
+  },
+  "containerType": null,
+  "containerSize": null,
+  "ssl": null,
+  "csr": null,
+  "customerDepartment": null,
+  "chassisType": null,
+  "chassisSize": null,
+  "chassisOwner": null,
+  "commodity": null,
+  "hazmat": null,
+  "overweight": null,
+  "liquor": null,
+  "hot": null,
+  "genset": null,
+  "domestic": null,
+  "ev": null,
+  "waste": null,
+  "gdp": null,
+  "isRail": null,
+  "isStreetTurn": null,
+  "isDeleted": false,
+  "version": 1,
+  "isApplyPerLoad": false,
+  "isTrip": false,
+  "scale": null,
+  "customerGroups": [],
+  "billToGroup": [],
+  "terminalGroups": [],
+  "routingRules": [],
+  "customerEmployee": [],
+  "documentRules": [],
+  "createdAt": {
+    "$date": "2025-04-30T08:48:55.884Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-22T13:16:12.429Z"
+  }
+}

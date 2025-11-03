@@ -1,0 +1,71 @@
+{
+  "_id": {
+    "$oid": "6811e3f65b1531c78083ecd1"
+  },
+  "name": "Atlanta-7775.91",
+  "description": "Line Haul",
+  "unitOfMeasure": "fixed",
+  "owner": "5fb3e0fc2a51862c03449322-driver",
+  "systemGenerated": false,
+  "rules": [
+    {
+      "type": "GROUP",
+      "value": "AND",
+      "isNegated": false,
+      "children": []
+    }
+  ],
+  "charges": [
+    {
+      "freeUnits": 0,
+      "minimumAmount": 0,
+      "amount": 7775.91,
+      "_id": {
+        "$oid": "6811e3f65b1531c78083ecd2"
+      }
+    }
+  ],
+  "isActive": true,
+  "autoAdd": true,
+  "fromEvent": null,
+  "toEvent": null,
+  "inEvent": null,
+  "exactEvents": null,
+  "chargeTemplateGroupID": [],
+  "isDeleted": false,
+  "version": 1,
+  "chargeName": "Line Haul",
+  "chargeCode": "Base Price",
+  "percentageOf": [],
+  "vendor": {
+    "name": "All Driver Group",
+    "profileType": "driverGroups/all",
+    "profile": null,
+    "profileGroup": [],
+    "_id": {
+      "$oid": "6811db7c60b4869eb9e26742"
+    }
+  },
+  "vendorId": null,
+  "vendorProfileType": "driverGroups/all",
+  "multiQueryIndex": [],
+  "fromLegs": [],
+  "fromProfileType": null,
+  "from": null,
+  "toLegs": [],
+  "toProfileType": null,
+  "to": null,
+  "moveType": null,
+  "createdAt": {
+    "$date": "2025-04-30T08:48:54.636Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-30T08:48:54.636Z"
+  },
+  "eventLocationRule": {
+    "event": "DELIVERLOAD",
+    "_id": {
+      "$oid": "6813550f0eccce56651f8917"
+    }
+  }
+}
